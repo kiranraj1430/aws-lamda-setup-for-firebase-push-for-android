@@ -1,0 +1,10 @@
+{
+    "name": "lambda-firebase-admin",
+    "version": "1.0.0",
+    "lamda": "aws lambda update-function-code --function-name FUNCTION_NAME --zip-file fileb://ZIP-FILE-NAME.zip --region AWS-REGION",
+    "main": "index.js",
+    "dependencies": {
+        "aws-lambda": "^1.0.7",
+        "firebase-admin": "^9.0.0"
+    }
+}
